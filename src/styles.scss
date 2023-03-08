@@ -1,1 +1,22 @@
+/*
+* File: styles.scss
+* Author: Lukács Eszter
+* Copyright: 2023, Lukács Eszter
+* Group: Szoft II N
+* Date: 2023-03-08
+* Github: https://github.com/lukacseszter/
+* Licenc: GNU GPL
+*/
+
 /* You can add global styles to this file, and also import other style files */
+
+
+$theme-colors: (
+    "danger": #f62424,
+    "success": #70f8cf,
+    "yellow": #fff45a,
+    "black": #000000
+);
+
+
+@import 'bootstrap;'
