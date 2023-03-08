@@ -13,6 +13,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ApiComponent } from './api/api.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { ApiComponent } from './api/api.component';
     ApiComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    ApiComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
